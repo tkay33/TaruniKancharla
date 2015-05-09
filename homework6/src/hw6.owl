@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://edu.asu.bmi/cad591/varun/skos/ext"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://edu.asu.bmi/cad591/TaruniKancharla/skos/ext">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/2004/02/skos/core</Import>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#subTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in beta cell function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in insulin action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus due to pancreatic injury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus type 1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes mellitus type 2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finding site"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Type I diabetes mellitus with gangrene"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Diabetes mellitus due to genetic defect in beta cell function"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Diabetes mellitus due to genetic defect in insulin action"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Diabetes mellitus due to pancreatic injury"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Diabetes mellitus type 1"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Diabetes mellitus type 2"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="subTypeOf"/>
+        <NamedIndividual IRI="Type I diabetes mellitus with gangrene"/>
+        <NamedIndividual IRI="Diabetes mellitus type 1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in beta cell function"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in insulin action"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to pancreatic injury"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus type 1"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus type 2"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Finding site"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Type I diabetes mellitus with gangrene"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasFindingSite"/>
+        <NamedIndividual IRI="Diabetes mellitus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">endrocine system</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#notation"/>
+        <NamedIndividual IRI="#bmiVocabulary"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bmi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">73211009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in beta cell function"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">609568004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to genetic defect in insulin action"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">609569007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus due to pancreatic injury"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">105401000119101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus type 1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">46635009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Diabetes mellitus type 2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">44054006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Finding site"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">363698007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <NamedIndividual IRI="#Type I diabetes mellitus with gangrene"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">190369008</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#subTypeOf"/>
+        <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#partOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#subTypeOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#partOf"/>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subTypeOf"/>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#partOf"/>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subTypeOf"/>
+        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
